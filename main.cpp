@@ -10,7 +10,6 @@ long long fibonacciRecursive(int n) {
     return fibonacciRecursive(n - 1) + fibonacciRecursive(n - 2);
 }
 
-
 long long fibonacciDP(int n) {
     if (n <= 1)
         return n;
